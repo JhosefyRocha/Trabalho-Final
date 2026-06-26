@@ -1,63 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio | Sobre</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="nav">
-      <h1 class="logo">Meu Portfólio</h1>
-      <ul class="nav-list">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="navbar">
+        <div class="logo">Jhosefy Rocha Queiroz</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="pagina-interna">
-    <section class="bloco-conteudo">
-      <h2>Sobre mim</h2>
-      <p>
-        Sou estudante de Ciência da Computação e estou desenvolvendo minhas habilidades
-        em programação com foco em projetos práticos.
-      </p>
+    <main class="conteudo_principal">
+        <section class="contato">
+            <h2>Vamos Conversar?</h2>
+            
+            <div class="secao_links">
+                <a href="https://www.linkedin.com/in/jhosefyqueiroz" target="_blank" class="link_contato">LinkedIn</a>
+                <a href="https://github.com/JhosefyRocha" target="_blank" class="link_contato">GitHub</a>
+                <a href="mailto:jhosefyrocha@edu.unifil.br" class="link_contato">Gmail</a>
+            </div>
 
-      <p>
-        Tenho interesse em HTML, CSS, JavaScript, Java, bancos de dados e construção de
-        interfaces funcionais e bem estruturadas.
-      </p>
-    </section>
+            <form class="form_contato">
+                <div class="input">
+                    <label for="nome">Nome:</label>
+                    <input type="text" required placeholder="Digite seu nome">
+                </div>
+                <div class="input">
+                    <label for="mensagem">Mensagem:</label>
+                    <input id="mensagem" required placeholder="Sua mensagem..."></input>
+                </div>
+                <button type="submit" class="btn_enviar">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
 
-    <section class="bloco-conteudo">
-      <h2>Objetivos</h2>
-      <ul class="lista">
-        <li>Melhorar minha base em desenvolvimento web</li>
-        <li>Criar projetos para currículo e portfólio</li>
-        <li>Aprender boas práticas de programação</li>
-        <li>Aplicar conceitos vistos em aula</li>
-      </ul>
-    </section>
+    <footer class="rodape">
+        <p>&copy; 2026 Jhosefy Rocha Queiroz. Todos os direitos reservados.</p>
+    </footer>
 
-    <section class="bloco-conteudo">
-      <h2>Tecnologias</h2>
-      <div class="tags">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>Java</span>
-        <span>Git</span>
-        <span>GitHub</span>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>Conhecimento em evolução constante.</p>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
