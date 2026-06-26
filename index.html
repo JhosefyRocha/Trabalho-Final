@@ -1,76 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio | Início</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="nav">
-      <h1 class="logo">Meu Portfólio</h1>
-      <ul class="nav-list">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="navbar">
+        <div class="logo">Jhosefy Rocha Queiroz</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Sobre Mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-text">
-        <p class="tag">Desenvolvedor em formação</p>
-        <h2>Olá, eu sou <span>Seu Nome</span></h2>
-        <p>
-          Crio sites, projetos acadêmicos e soluções simples com foco em aprendizado,
-          organização e evolução contínua.
-        </p>
+    <main class="conteudo_principal">
+        <section class="sobre_mim">
+            <img src="imagens/Captura de tela 2026-05-25 180141.png" alt="Sua Foto de Perfil" class="foto_perfil">
+            <div class="texto_sobre">
+                <h1>Olá, eu me chamo Jhosefy</h1>
+                <p class="subtitulo">Desenvolvedor Python</p>
+                <p class="descricao">Estudante de ciencia da computação e amante da tecnologia. Atualmente sabendo Python, Java, Ruby e PHP.</p>
+            </div>
+        </section>
+    </main>
 
-        <div class="hero-buttons">
-          <a class="btn" href="projetos.html">Ver projetos</a>
-          <a class="btn btn-secundario" href="sobre.html">Saiba mais</a>
-        </div>
-      </div>
+    <footer class="rodape">
+        <p>&copy; 2026 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
 
-      <figure class="hero-image">
-        <img src="img/perfil.jpg" alt="Foto de perfil do portfólio" />
-      </figure>
-    </section>
-
-    <section class="card-section">
-      <article class="card">
-        <h3>HTML</h3>
-        <p>Estrutura semântica, páginas organizadas e conteúdo bem definido.</p>
-      </article>
-
-      <article class="card">
-        <h3>CSS</h3>
-        <p>Estilização visual com cores, responsividade e animações simples.</p>
-      </article>
-
-      <article class="card">
-        <h3>JavaScript</h3>
-        <p>Interatividade com função e manipulação do DOM.</p>
-      </article>
-    </section>
-
-    <section class="contato-resumo">
-      <h2>Contato</h2>
-      <p>Você pode me encontrar nas redes abaixo:</p>
-
-      <div class="social-links">
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="mailto:seuemail@gmail.com">Gmail</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p id="mensagem-footer">Portfólio desenvolvido com HTML, CSS e JavaScript.</p>
-  </footer>
+    <script src="js/js.js"></script>
 </body>
 </html>
